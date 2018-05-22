@@ -7,4 +7,9 @@ function consulta($consulta){
 	$resp = pg_fetch_all($query);
 	return $resp;
 }
+function edit($ed){
+		$con = pg_connect("host=127.0.0.1 port=5432 dbname=dbregistro user=registrouser password=holamundo") or die("No se puede establecer conexion a la BD");
+		$query = pg_query($con,$ed);
+		return $query;
+	}	
 ?>
