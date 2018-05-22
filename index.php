@@ -27,6 +27,13 @@
 		<label>Correo</label><input type="text" name="correo" required/><br/>
 		<input type="submit" value="Enviar">
 	</form>
+
+
+<a href="creditos.php">Creditos</a><br>
+<a href="contacto.php">Contacto</a><br>
+<a href="consulta.php">Consulta</a><br>
+
+
 <!-- Load Facebook SDK for JavaScript -->
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
